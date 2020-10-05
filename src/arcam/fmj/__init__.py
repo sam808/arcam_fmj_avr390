@@ -284,7 +284,7 @@ class DecodeModeMCH(enum.IntEnum):
 
 class RC5Codes(enum.Enum):
     SELECT_STB = bytes([16, 100])
-    SELECT_AV = bytes([16, 2])
+    SELECT_AV = bytes([16, 94])
     SELECT_TUNER = bytes([16, 3])
     SELECT_BD = bytes([16, 97])
     SELECT_GAME = bytes([16, 98])
